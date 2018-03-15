@@ -1,0 +1,73 @@
+server
+service -> web, app
+client(pc) -> web, browser
+
+	interface
+pc <---> usb
+port 
+
+UI/UX
+- interface : 컴퓨터를 이용해서 유저의 data와 연결되는 모든것
+- user interface : 유저 디자인 (app을 사용하면서 보는 화면)
+- experience design : 경험디자인 (이미 사용하였던 interface)
+
+frontend
+HTML(hypertext markup language)
+css (cascading style sheet) 
+js (javascript)
+backend
+Java, DB, spring, js
+
+IDE setting
+preferences - general - workspace - UTF-8
+web - css, html, jsp files - utf-8
+web browser - chrome
+window - perspective - customize - menu visibility - file - new - HTML file 체크
+
+글꼴설치
+https://developers.naver.com/main/
+D2coding 1.3.1 down - d2coding, ligature설치
+
+이클립스
+color and font - edit - d2coding ligature, 크기 16, 스크립트 한글
+
+<Tag> </Tag> 열리는태그 , 닫히는 태그
+<!DOCTYPE html> -> html5 문서임을 선언
+<html></html> -> html 문법의 시작과 끝
+<head></head> -> 머리글부분
+<meta charset = "UTF-8"> -> 모든 캐릭터셋 인코딩을 utf8로
+<body></body> -> 사용자에게 보여줄 바디부분
+
+Home page
+http://www.naver.com/(index.html) -> 생략되어있음, 적지않으면 자동으로 인식 (홈페이지)
+http -> 통신규약
+www -> service
+
+형상관리 툴
+git-scm.com
+default값으로 설치
+github.com -> 가입
+
+설치후
+bash git
+vi readme.md
+$ git config --global user.email
+$ git config --global user.name
+- git이라는 이름으로 설정 -- 이메일주소
+$ git init
+$ git add .
+$ git remote add origin master
+
+i -> 수정
+:w -> 기록
+:q -> 종료
+ls -al -> 파일보기
+$ git remote add origin https://github.com/berrys4p/Berrys.git -> 디렉토리 등록
+
+갱신방법
+$ git add . -> 현재 폴더의 모든 파일을 등록할 준비를 하라
+$ git commit -m '2018-03-14'
+$ git push -u origin master
+
+
+https://git-scm.com/book/ko/v2
