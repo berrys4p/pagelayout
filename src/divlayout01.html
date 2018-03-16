@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	header, footer {
+		color:white;
+		background-color:black;
+		text-align:center; /* 글자를 가운데 정렬 */
+		padding:0.5em; /* 상대적 단위 (기본적으로 글자폰트를 기준으로 정함) -> 폰트크기의 50%를 상하좌우로 여백을줌 */
+	}
+	
+	nav {
+		padding:0;
+		/*border:1px solid blue;*/
+		width:160px; /* 일반적인 폭 크기를 지정 */
+		max_width:160px; /* 브라우저 폭이 변했을경우에 최대 폭을 제한함 */
+		float:left;
+	}
+	
+	.nav_a {
+		text-decoration:none; /* 밑줄긋기 없애기 */
+	}
+	
+/*   	nav p a {
+		text-decoration:none; }*/
+
+	
+	article {
+		margin-left:170px;
+		border:1px solid gray; 
+		padding:1em;
+	}
+</style>
+</head>
+<body>
+
+<header>
+	<h2>나의 홈페이지</h2>
+</header>
+
+<nav>
+	<p><a href="#" class="nav_a">메인페이지</a></p>
+	<p><a href="#" class="nav_a">노트페이지</a></p>
+	<p><a href="#" class="nav_a">사진페이지</a></p>
+</nav>
+
+<article>
+	<h3>대한민국</h3>
+	<p>나는 자랑스러운 태극기 앞에 조국과 민족의 무궁한</p>
+</article>
+
+<footer>
+	<address>CopyRight &copy; neferpitou@naver.com</address>
+</footer>
+
+</body>
+</html>
